@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的主页</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body id="sum" style="background: url(img/1.png);">
+    <div class="ying" id="ying"><img src="img/yinghua.png" alt="会转圈圈的一朵大樱花"></div>
+    <p class="wel">Welcome to my world, my friend!</p>
+    <p class="wel1">欢迎来到我的世界，朋友！</p>
+    <p class="wel2" id="topp" >ようこそ、私の世界にようこそ、友达!</p>
+
+    <div class="nav_img" id="nav_con">
+        <ul>
+            <li><img src="img/yinghua.png" alt="会转圈圈的一朵小樱花"><a href="">主页</a></li>
+            <li><img src="img/yinghua.png" alt="会转圈圈的一朵小樱花"><a href="">笔记</a></li>
+            <li><img src="img/yinghua.png" alt="会转圈圈的一朵小樱花"><a href="">游戏</a></li>
+            <li><img src="img/yinghua.png" alt="会转圈圈的一朵小樱花"><a href="">相册</a></li>
+        </ul>
+    </div>
+
+    <!-- 800———1270 -->
+    <div class="contenta1">
+        <span>主页</span>，就是本宝宝的主要界面啊！就是你现在所在的界面，技艺不精还请多多指教才好。本想巴拉巴拉好多。这网页舒不舒服。一点一点学吧，希望离大神的步伐能每天迈进一小步！
+    </div>
+    <div class="contenta2">
+        <span>笔记</span>，逛逛看看，有啥有用的就收录起来，忘记了就瞧瞧，写写小感悟、看看大世界。毕竟世界那么大我想去瞧瞧！子曰：学而不思则罔，思而不学则殆。老人说的话还是有用的。好记性不如烂笔头。
+    </div>
+     <div class="contenta3">
+        <span>游戏</span>，谜一样的玩具。我小时候都事拿泥巴当玩具的年代。毕竟吸引力万千少男，少女，少夫，少妇啊啊啊啊啊！至今它的魅力仍然耸立在高高的云端。可望可亲近哦！
+    </div>
+      <div class="contenta4">
+        <span>相册</span>，天天拍啊拍啊我的骄傲放纵。拍啊拍啊，拍不尽我的容颜。天生丽质就要多拍照要不多可惜不是，手机，相机统统燥起来。猪头，猪脑晃起来。
+    </div>
+
+    <!-- 1270 up -->
+    <img src="img/huahai1.png" class="hai">
+    <div class="ci">
+        花心动--阮逸<br/>女仙苑春浓，小桃开，枝枝已堪攀折。乍雨乍晴，轻暖轻寒，<br/>渐近赏花时节。柳摇台榭东风软，帘栊静，幽禽调舌。<br/>断魂远，闲寻翠径，顿成愁结。<br/>此恨无人共说。还立尽黄昏，寸心空切。强整绣衾，<br/>独掩朱扉，枕簟为谁铺设？夜长更漏传声远，纱窗映，<br/>银缸明灭。梦回处，梅梢半笼残月。</div>
+    <script>
+        var doc = document;
+        var id1 =  doc.getElementById("sum"),
+            id2 = doc.getElementById("topp"),
+            id3 = doc.getElementById("nav_con");
+        id2.style.top = ((id1.offsetHeight-id2.offsetHeight)/2) + "px";
+        id3.style.top = ((id1.offsetHeight-id3.offsetHeight)/2) + "px";
+        
+    </script>
+</body>    
+</html>
